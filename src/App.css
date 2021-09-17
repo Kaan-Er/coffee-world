@@ -1,0 +1,38 @@
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+}
+
+.sidenav {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 20vw;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  padding-top: 50px;
+  border: 1px solid #000;
+}
+
+.main {
+  margin-left: 20vw;
+  font-size: 18px;
+  padding: 0px 10px;
+}
+
+.inputStyle {
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+  height: 20px;
+  border: 2px solid rgb(194, 191, 191);
+  border-radius: 10px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
