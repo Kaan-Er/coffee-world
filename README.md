@@ -13,6 +13,7 @@ You can find the coffee you want directly from the search section.
 #### `git clone https://github.com/Kaan-Er/coffee-world.git`
 #### `cd coffee-world`
 #### `npm install`
+#### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
