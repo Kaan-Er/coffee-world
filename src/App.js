@@ -1,15 +1,28 @@
-import { Fragment } from "react";
-import "./App.css";
-import Input from "./components/Input/Input";
+import { BrowserRouter as Router, NavLink, Route } from "react-router-dom";
+import SearchInput from "./components/Input/SearchInput";
+import Category from "./Layout/Category";
+import Home from "./Layout/Home";
 
 function App() {
   return (
-    <Fragment>
+    <Router>
       <div className="sidenav">
-        <Input placeholder="Search" />
+        <SearchInput placeholder="Search" />
+        <div className="categories">
+          <NavLink exact to="/" activeClassName="active">
+            All Coffees
+          </NavLink>
+          <NavLink to="/category/hot" activeClassName="active">
+            Hot
+          </NavLink>
+          <NavLink to="/category/iced" activeClassName="active">
+            Iced
+          </NavLink>
+        </div>
       </div>
-      <div className="main"></div>
-    </Fragment>
+      <Route exact path="/" component={Home} />
+      <Route path="/category/:type" component={Category} />
+    </Router>
   );
 }
 

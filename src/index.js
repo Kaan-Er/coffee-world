@@ -5,6 +5,7 @@ import { store } from "./app/store";
 import { Provider } from "react-redux";
 
 ReactDOM.render(
+  // We provide our store field to all components
   <Provider store={store}>
     <App />
   </Provider>,
