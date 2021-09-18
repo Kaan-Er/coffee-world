@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card renders correctly 1`] = `
+<div
+  className="card"
+>
+  <h2
+    className="card-title"
+    data-testid="header"
+  >
+    Black
+  </h2>
+  <p
+    className="card-description"
+  >
+    Black coffee is as simple as it gets with ground coffee beans steeped in hot water, served warm. And if you want to sound fancy, you can call black coffee by its proper name: cafe noir.
+  </p>
+  <p
+    className="card-ingredients"
+  >
+    Ingredients: 
+    Coffee
+  </p>
+</div>
+`;
+
+exports[`renders correctly 1`] = `
+<div
+  className="card"
+>
+  <h2
+    className="card-title"
+    data-testid="header"
+  >
+    Black
+  </h2>
+  <p
+    className="card-description"
+  >
+    Black coffee is as simple as it gets with ground coffee beans steeped in hot water, served warm. And if you want to sound fancy, you can call black coffee by its proper name: cafe noir.
+  </p>
+  <p
+    className="card-ingredients"
+  >
+    Ingredients: 
+    Coffee
+  </p>
+</div>
+`;
