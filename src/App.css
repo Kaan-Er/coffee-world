@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'ExoBold';
+  src: local('ExoBold'),
+    url('./assets/fonts/Exo-Bold.woff2') format('woff2'),
+}
+
+@font-face {
+  font-family: 'RobotoRegular';
+  src: local('RobotoRegular'),
+    url('./assets/fonts/Roboto-Regular.woff2') format('woff2'),
+}
+
 *,
 *::after,
 *::before {
@@ -67,14 +79,66 @@
 }
 
 .card-title {
+  font-family: ExoBold;
   padding: 5px 0px;
+}
+
+.card-description {
+  font-family: RobotoRegular;
+  font-size: 18px;
 }
 
 .card-ingredients {
   padding: 5px 0px;
   font-size: 16px;
+  font-family: RobotoRegular;
 }
 
 .active {
   color: blue !important
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 766px) {
+  .sidenav {
+    width: 100%;
+    height: 10vh;
+    padding-top: 20px;
+    border: 0px;
+    border-bottom: 2px solid #ccc !important;
+  }
+
+  .main {
+    z-index: 1;
+    margin-top: 10vh;
+    margin-left: 0px;
+    font-size: 16px;
+  }
+
+  .card {
+    margin: 5px;
+    width: auto;
+  }
+
+  .categories {
+    margin: 0px
+  }
+
+  .categories a {
+    font-size: 16px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .sidenav {
+    height: 20vh;
+    border: 0px;
+    border-bottom: 2px solid #ccc !important;
+  }
+
+  .main {
+    margin-top: 20vh;
+
+  }
 }

@@ -1,4 +1,3 @@
-import "../App.css";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { filterCoffeesByCategory } from "../features/coffees/coffeesSlice";

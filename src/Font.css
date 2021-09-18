@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'ExoBold';
+  src: local('ExoBold'),
+    url('./assets/fonts/Exo-Bold.woff2') format('woff2'),
+}
+
+@font-face {
+  font-family: 'RobotoRegular';
+  src: local('RobotoRegular'),
+    url('./assets/fonts/Roboto-Regular.woff2') format('woff2'),
+}

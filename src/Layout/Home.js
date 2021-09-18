@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import "../App.css";
 import Card from "../components/Card/Card";
 import { getAllCoffees } from "../features/coffees/coffeesSlice";
 
