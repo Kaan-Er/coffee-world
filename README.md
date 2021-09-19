@@ -1,7 +1,7 @@
 # Coffee World
 
 The site shows all coffees and coffees by category. 
-You can find the coffee you want directly from the search section.
+You can find the coffee you want directly from the search section.If you search while in any category, you will see the coffees belonging to that category.
 
 ## Used Technologies
 
@@ -9,6 +9,7 @@ You can find the coffee you want directly from the search section.
 - Jest
 
 ## Run Your Local
+Follow these steps in order:
 
 #### `git clone https://github.com/Kaan-Er/coffee-world.git`
 #### `cd coffee-world`
@@ -18,7 +19,7 @@ You can find the coffee you want directly from the search section.
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-
+To see the tests in the project:
 #### `npm test`
 
 Launches the test runner in the interactive watch mode.
