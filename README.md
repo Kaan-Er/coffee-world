@@ -1,7 +1,8 @@
 # Coffee World
 
 The site shows all coffees and coffees by category. 
-You can find the coffee you want directly from the search section.If you search while in any category, you will see the coffees belonging to that category.
+You can find the coffee you want directly from the search section. 
+If you search while in any category, you will see the coffees belonging to that category.
 
 ## Used Technologies
 
